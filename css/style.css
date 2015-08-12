@@ -1,1 +1,14 @@
-style.css
+header{
+	background: url("../img/banner.jpg");
+	background-size: cover;
+	color:#fff;
+	font-family: sans-serif;
+	padding: 10em 0;
+	margin-bottom: 2em;
+}
+footer{
+	padding: 1em 0;
+}
+.p30{
+	padding:30px;
+}

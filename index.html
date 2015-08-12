@@ -4,17 +4,49 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Asignacion de Mediciones Electricas</title>
+    <title>Trabajo Especial Mediciones Electricas</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="text-center">
+    	<h1>Trabajo Especial Mediciones Electricas</h1>
+    </header>
+    <section id="" class="col-xs-10 col-xs-offset-1">
+    	<!-- Pestañas de Navegacion -->
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation"><a href="#voltaje" aria-controls="voltaje" role="tab" data-toggle="tab">Voltaje</a></li>
+			<li role="presentation"><a href="#corriente" aria-controls="corriente" role="tab" data-toggle="tab">Corriente</a></li>
+			<li role="presentation"><a href="#potencia" aria-controls="potencia" role="tab" data-toggle="tab">Potencia</a></li>
+		</ul>
 
+  		<!-- Paneles de las Pestañas -->
+		<div class="tab-content p30">
+			<div role="tabpanel" class="tab-pane fade" id="voltaje">
+				<div id="chart1" style="height:400px;width:300px; "></div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="corriente">
+				2
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="potencia">
+				3
+			</div>
+		</div>
+
+    </section>
+<footer class="col-xs-12 text-center">
+  <p>Licencia GNU-GPL2 - Software Libre</p>
+  <p><a href="http://twitter.com/rafnixg">Rafnix Guzman</a> - <a href="">Codigo Fuente</a></p>
+</footer>
     <!-- jQuery  -->
     <script src="js/jquery.min.js"></script>
     <!-- Incluyendo todos los plugins de Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
   </body>
 </html>
